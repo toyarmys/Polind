@@ -1,0 +1,730 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  
+ }
+
+ body{
+ 	height: 100%;
+ 	margin: 0;
+  	padding: 0;
+  	border: 0;
+ }
+
+div.container-fluid > header{
+	background-color: #3B5998;
+	height: 82px;
+	width: 100%;
+}
+
+div.container-fluid > header > div > a.facebook, a.forgotPassword{
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	position: relative;
+
+}
+
+div.container-fluid > header > div > a.facebook{
+	left: 250px;
+	color: white;
+	top: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+div.container-fluid > header > div > a.forgotPassword{
+	color: gray;
+	font-size: 12px;
+	top: -65px;
+	left: 71%;
+}
+
+div.container-fluid > header > div > a.forgotPassword:hover{
+	text-decoration: underline;
+}
+
+div.container-fluid > header > div > label.username, label.password{
+	position: relative;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+div.container-fluid > header > div > label.username{
+	left: 60%;
+	top: -30px;
+}
+
+div.container-fluid > header > div > label.password{
+	left: 71%;
+	top: -66px;
+}
+
+div.container-fluid > header > div > button{
+	position: relative;
+	top: -102px;
+	left: 82%;
+	border: 1px solid #29487d;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	background-color: #4267b2;
+	color: white;
+}
+
+div.container-fluid > header > div > button:hover{
+	background-color: #365899;
+}
+
+div.container-fluid > header > div > input.inputUsername, input.inputPass{
+	position: relative;
+	color: white;
+	width: 142px;
+}
+
+div.container-fluid > header > div > input.inputUsername{
+	left: 60%;
+	top: -28px;
+}
+
+div.container-fluid > header > div > input.inputPass{
+	left: 71%;
+	top: -65px;
+}
+
+div.container-fluid > div.full-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: linear-gradient(#FDFDFE, #D4D9E8);
+}
+
+div.container-fluid > div.full-content > div.left-side{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+div.container-fluid  > div.full-content > div.left-side > div.type{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #0E385F;
+	font-weight: bold;
+	font-size: 20px;
+	width: 450px;
+	margin: 30px 0 0 250px;
+}
+
+div.container-fluid  > div.full-content > div.left-side > div.image{
+	margin-left: 250px;
+}
+
+div.container-fluid > div.full-content > div.right-side{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.register{
+	padding: 20px 0 0 0;
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.register > h1{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #333;
+
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.easy{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1d2129;
+	font-size: 19px;
+	margin: 10px 0 0 0;
+}
+
+div.container-fluid  > div.full-content > div.registration input{
+	height: 35px;
+	margin: 10px 0 0 0;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	outline: none;
+}
+
+div.container-fluid  > div.full-content > div.registration input.phoneOrEmail, input.newPass{
+	width: 400px;
+}
+
+div.container-fluid  > div.full-content > div.registration input.ten{
+	margin-left: 5px;
+}
+
+div.container-fluid  > div.full-content > div.registration input::placeholder{
+	font-size: 18px;
+	padding-left: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+div.clear{
+	clear: both;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.date{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #90949c;
+	margin-top: 15px;
+}
+
+select{
+	margin-top: 5px;
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+
+#Day{
+	margin: 0px;
+    padding: 0px;
+}
+
+#Month{
+	margin-left: -4px;
+}
+
+#Year{
+	margin-left: -3px;
+}
+
+span.fa-question-circle{
+	margin-left: 10px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #90949c;
+	margin-top: 10px;
+	margin-left: 60%;
+	
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender > input{
+	display: inline-block;
+	position: relative;
+	top: 11px;
+	margin: -10px 0 0 10px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender > label{
+	color: #1d2129;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information{
+	margin-top: 10px;
+	margin-left: 60%;
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information > a{
+	text-decoration: none;
+	color: #6A81B2;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information > a:hover{
+	text-decoration: underline;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.registerButton > button{
+	background-color: green;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	height: 40px;
+	width: 172px;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-top: 15px;
+    outline: none;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+div.container-fluid  > div.full-content > div.registration > div.registerButton > button:hover{
+	background: linear-gradient(#7BB765, #5D9149);
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage{
+	margin-left: 60%;
+	margin-top: 15px;
+	width: 350px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 25px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage > a{
+	text-decoration: none;
+	color: #385898;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage > a:hover{
+	text-decoration: underline;
+}
+
+#footer > div.language{
+	margin-left: 15%;
+	margin-top: 25px;
+}
+
+#footer > div.language > div.border{
+	width: 80%;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin: 10px 0 0 10px;
+}
+
+#footer > div.language > ul > li{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+#footer > div.language > ul > li:first-child{
+	color: grey;
+}
+
+#footer > div.language > ul > li > button{
+	width: 30px;
+	height: 20px;
+}
+
+#footer > div.language > ul > li > a{
+	text-decoration: none;
+	color: #45629E;
+}
+
+#footer > div.language > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+#footer > div.language > div.footerLinks{
+	width: 80%;
+	margin-left: -5px;
+}
+
+#footer > div.language > div.footerLinks > ul > li{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+	margin-top: 10px;
+
+}
+
+#footer > div.language > div.footerLinks > ul > li > a{
+	text-decoration: none;
+	color:#45629E;
+	white-space: nowrap; 
+}
+
+#footer > div.language > div.copyright{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	color: grey;
+
+}
+
+#footer{
+	height: auto;
+	width: 100%;
+
+}
+
+@media only screen and (min-width: 768px){
+	div.container-fluid > header{
+	background-color: #3B5998;
+	height: 82px;
+	width: 100%;
+}
+
+div.container-fluid > header > div > a.facebook, a.forgotPassword{
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	position: relative;
+
+}
+
+div.container-fluid > header > div > a.facebook{
+	left: 250px;
+	color: white;
+	top: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+div.container-fluid > header > div > a.forgotPassword{
+	color: gray;
+	font-size: 12px;
+	top: -65px;
+	left: 71%;
+}
+
+div.container-fluid > header > div > a.forgotPassword:hover{
+	text-decoration: underline;
+}
+
+div.container-fluid > header > div > label.username, label.password{
+	position: relative;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+div.container-fluid > header > div > label.username{
+	left: 60%;
+	top: -30px;
+}
+
+div.container-fluid > header > div > label.password{
+	left: 71%;
+	top: -66px;
+}
+
+div.container-fluid > header > div > button{
+	position: relative;
+	top: -102px;
+	left: 82%;
+	border: 1px solid #29487d;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	background-color: #4267b2;
+	color: white;
+}
+
+div.container-fluid > header > div > button:hover{
+	background-color: #365899;
+}
+
+div.container-fluid > header > div > input.inputUsername, input.inputPass{
+	position: relative;
+	color: white;
+	width: 142px;
+}
+
+div.container-fluid > header > div > input.inputUsername{
+	left: 60%;
+	top: -28px;
+}
+
+div.container-fluid > header > div > input.inputPass{
+	left: 71%;
+	top: -65px;
+}
+
+div.container-fluid > div.full-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: linear-gradient(#FDFDFE, #D4D9E8);
+}
+
+div.container-fluid > div.full-content > div.left-side{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+div.container-fluid  > div.full-content > div.left-side > div.type{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #0E385F;
+	font-weight: bold;
+	font-size: 20px;
+	width: 450px;
+	margin: 30px 0 0 250px;
+}
+
+div.container-fluid  > div.full-content > div.left-side > div.image{
+	margin-left: 250px;
+}
+
+div.container-fluid > div.full-content > div.right-side{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.register{
+	padding: 20px 0 0 0;
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.register > h1{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #333;
+
+}
+
+div.container-fluid  > div.full-content > div.right-side > div.easy{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1d2129;
+	font-size: 19px;
+	margin: 10px 0 0 0;
+}
+
+div.container-fluid  > div.full-content > div.registration input{
+	height: 35px;
+	margin: 10px 0 0 0;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	outline: none;
+}
+
+div.container-fluid  > div.full-content > div.registration input.phoneOrEmail, input.newPass{
+	width: 400px;
+}
+
+div.container-fluid  > div.full-content > div.registration input.ten{
+	margin-left: 5px;
+}
+
+div.container-fluid  > div.full-content > div.registration input::placeholder{
+	font-size: 18px;
+	padding-left: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+div.clear{
+	clear: both;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.date{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #90949c;
+	margin-top: 15px;
+}
+
+select{
+	margin-top: 5px;
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+
+#Day{
+	margin: 0px;
+    padding: 0px;
+}
+
+#Month{
+	margin-left: -4px;
+}
+
+#Year{
+	margin-left: -3px;
+}
+
+span.fa-question-circle{
+	margin-left: 10px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #90949c;
+	margin-top: 10px;
+	margin-left: 60%;
+	
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender > input{
+	display: inline-block;
+	position: relative;
+	top: 11px;
+	margin: -10px 0 0 10px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.gender > label{
+	color: #1d2129;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information{
+	margin-top: 10px;
+	margin-left: 60%;
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information > a{
+	text-decoration: none;
+	color: #6A81B2;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.information > a:hover{
+	text-decoration: underline;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.registerButton > button{
+	background-color: green;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	height: 40px;
+	width: 172px;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-top: 15px;
+    outline: none;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+div.container-fluid  > div.full-content > div.registration > div.registerButton > button:hover{
+	background: linear-gradient(#7BB765, #5D9149);
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage{
+	margin-left: 60%;
+	margin-top: 15px;
+	width: 350px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 25px;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage > a{
+	text-decoration: none;
+	color: #385898;
+}
+
+div.container-fluid  > div.full-content > div.registration > div.createPage > a:hover{
+	text-decoration: underline;
+}
+
+#footer > div.language{
+	margin-left: 15%;
+	margin-top: 25px;
+}
+
+#footer > div.language > div.border{
+	width: 80%;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin: 10px 0 0 10px;
+}
+
+#footer > div.language > ul > li{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+#footer > div.language > ul > li:first-child{
+	color: grey;
+}
+
+#footer > div.language > ul > li > button{
+	width: 30px;
+	height: 20px;
+}
+
+#footer > div.language > ul > li > a{
+	text-decoration: none;
+	color: #45629E;
+}
+
+#footer > div.language > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+#footer > div.language > div.footerLinks{
+	width: 80%;
+	margin-left: -5px;
+}
+
+#footer > div.language > div.footerLinks > ul > li{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+	margin-top: 10px;
+
+}
+
+#footer > div.language > div.footerLinks > ul > li > a{
+	text-decoration: none;
+	color:#45629E;
+	white-space: nowrap; 
+}
+
+#footer > div.language > div.copyright{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	color: grey;
+
+}
+
+#footer{
+	height: auto;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1251px){
+	.container-fluid > .header > .facebook{
+		color: red;
+	}
+}

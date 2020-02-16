@@ -1,0 +1,1222 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	min-height: 150vh;
+	}
+
+header{
+	background-image: url(../images/Polind/polind.jpg);
+	background-position: 0% 0px;
+  	min-height: 150vh;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	position: relative;
+  	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18.19px;
+	font-family: Montserrat;
+	font-weight: normal;
+}
+
+header a{
+	float: left;
+}
+
+header a img{
+		margin: 20px 0 0 20px;
+	}
+
+	header a p{
+		display: inline-block;
+		color: #fff;
+		font-size: 30px;
+		font-family: Montserrat;
+		font-weight: bold;
+		position: absolute;
+		top: 1em;
+		left: 2.5em;
+	}
+	
+	.clearfix{
+		clear: both;
+	}
+	
+	.nav-menu{
+		float: right;
+	}
+
+	.nav-menu ul{
+		margin: 0;
+		padding: 0;
+		margin-right: 7em;
+	}
+
+	.nav-menu ul li{
+		display: inline-block;
+		list-style: none;
+	}
+
+	.nav-menu ul li a{
+		display: block;
+		margin-top: 2em;
+		margin-left: 2.5em;
+		text-align: center;
+	}
+
+	.nav-menu ul li a:hover{
+		color: #ED6950;
+		transition: 0.5s;
+	}
+
+	.text .text1{
+		font-size: 92px;
+		font-family: Montserrat;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 2.5em;
+	}
+
+	.text .text2{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: normal;
+		font-size: 18.19px;
+		opacity: 0.2;
+		color: #fff;
+	}
+
+	.text .text3-btn{
+		background-color: #ffc74a;
+		outline: none;
+		border: none;
+		height: 3rem;
+		width: 16rem;
+		border-radius: 15rem;
+		margin-left: 62em;
+		margin-top: 2rem;
+	}
+
+	.text .text3{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: bold;
+		font-size: 14px;
+		color: #b98000;
+	}
+
+	.text .text4{
+		font-family: Montserrat;
+		font-size: 18.19px;
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+		margin-top: 30rem;
+	}
+
+form.search-header{
+   position: relative;
+   top: 2rem;
+   left: 117rem;
+   transform: translateX(-100%);
+   transition: all 1s;
+   padding: 5px;
+}
+
+form.search-header input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 32.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    transition: 0.5s all;
+}
+	
+i.fa-search{
+	font-size: 18.19px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 32.5px;
+    height: 32.5px;
+    position: absolute;
+    top: 0;
+    right: -0;
+    border-radius: 50%;
+    color: yellow;
+    text-align: center;
+    font-size: 3rem;
+    transition: all 1s;
+}
+
+form.search-header:hover{
+    width: 160px;
+    cursor: pointer;
+
+}
+
+form.search-header:hover input{
+    display: block;
+    transition: 0.5s all;
+}
+
+form.search-header:hover .fa{
+    background: #07051a;
+}
+
+	
+	.responsive{
+		position: relative;
+		top: -12.5rem;
+	}
+
+	.responsive .img-float-left{
+		float: left;
+	}
+
+	.responsive .img-center{
+		position: relative;
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.responsive .img-center .Zakopane, .Sandomierz, .Sopot{
+		position: relative;
+		display: inline-block;
+	}
+
+	.responsive .img-center .Sandomierz{
+		margin-left: 10px;
+	}
+
+	.responsive .img-center img{
+		padding-left: 25px;
+	}
+
+	.responsive .img-center img:first-child{
+		margin-left: 0px;
+	}
+
+	.responsive .img-center img:last-child{
+		margin-left: -5px;
+	}
+
+	.responsive .img-center .Sopot{
+		margin-left: 15px;
+	}
+
+	.responsive .img-center img{
+		margin-left: 5px;
+	}
+
+	.responsive .img-float-right{
+		float: right;
+	}
+	
+	.img-center .img1-btn
+	{	position: absolute;
+		background-color: #ffc74a;
+		outline: none;
+		border: none;
+		height: 3rem;
+		width: 13rem;
+		border-radius: 15rem;
+		left: 6rem;
+		top: 19rem;
+	}
+
+	.img-center .offers{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: bold;
+		font-size: 14px;
+		color: #b98000;
+	}
+
+	.img-center .text1-img1{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: bold;
+		font-size: 48px;
+		color: #fff;
+		opacity: 0.9;
+		position: absolute;
+		top: 10.5rem;
+		left: 3rem;
+		text-align: center;
+	}
+
+	.img-center .text2-img1{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: normal;
+		font-size: 14px;
+		color: #fff;
+		position: absolute;
+		top: 14rem;
+		left: 9rem;
+		text-align: center;
+	}
+
+	.img-center .text1-img2{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		color: #fff;
+		opacity: 0.9;
+		position: absolute;
+		top: 17rem;
+		left: 8.5rem;
+		text-align: center;
+	}
+
+	.img-center .text2-img2{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: normal;
+		font-size: 14px;
+		color: #ffc74a;
+		position: absolute;
+		top: 19.5rem;
+		left: 9rem;
+		text-align: center;
+	}
+
+	.img-center .text1-img3{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		color: #fff;
+		opacity: 0.9;
+		position: absolute;
+		top: 17rem;
+		left: 7.5rem;
+		text-align: center;
+	}
+
+	.img-center .text2-img3{
+		font-family: Montserrat;
+		text-align: center;
+		font-weight: normal;
+		font-size: 14px;
+		color: #ffc74a;
+		position: absolute;
+		top: 19.5rem;
+		left: 9.5rem;
+		text-align: center;
+	}
+
+.search .search-text{
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #606f81;
+	margin-top: -8rem;
+
+}
+
+.search-bar{
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+}
+
+.search-bar input{
+    position: absolute;
+    top: 0;
+    left: 34rem;
+    width: 40%;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 60px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    color: #606f81;
+	font-family: Montserrat;
+	font-size: 14px;
+	background-color: #fff;
+	transition: 0.5s all;
+}
+
+.search-bar input:hover{
+	background-color: rgba(141, 148, 169, 0.15);
+	transition: 0.5s all;
+}
+
+.search-bar i.fa-search{
+	font-size: 26px;
+	position: relative;
+	left: 59rem;
+	margin-top: 8px;
+}
+
+.journey-travelers-guild .journey-btn, .travelers-btn, .guide-btn{
+	position: relative;
+	outline: none;
+	border: none;
+	height: 2rem;
+	width: 5.5rem;
+	border-radius: 15rem;
+	top: 5rem;
+	left:12rem;
+	margin-left: 0.3rem;
+	transition: all 1s ease-out;
+	background-color: #bdc8d9;
+}
+
+.journey-travelers-guild .guide-btn{
+	width: 4rem;
+}
+
+.journey-travelers-guild .journey-text, .travelers-text, .guide-text{
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+
+.journey-travelers-guild .active{
+	background-color: #ffc74a;
+	transition: all 0.5s;
+}
+
+.mazury-cracow-zakopane .mazury-btn, .cracow-btn, .zakopane-btn{
+	background: none;
+	position: relative;
+	outline: none;
+	border: 1px solid #bdc8d9;
+	height: 2rem;
+	width: 5.5rem;
+	border-radius: 15rem;
+	top: 3rem;
+	left:44.5rem;
+	margin-left: 0.3rem;
+}
+
+.mazury-cracow-zakopane .mazury-text, .cracow-text, .zakopane-text{
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #8d97a5;
+}
+
+.offer-places{
+	width: 100%;
+}
+
+.offer-places .poznan, .warsaw, .wroclaw, .karpacz, .dolina, .kozy{
+	width: 350px;
+	height: 33%;
+	background-color: rgba(204,204,204, 0.2);
+	position: relative;
+	border: 1px solid rgba(204,204,204, 0.2);
+}
+
+.offer-places .poznan:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .warsaw:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .wroclaw:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .karpacz:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .dolina:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .kozy:hover{
+	box-shadow: 5px 5px 50px 5px rgba(141,168,149,0.15);
+}
+
+.offer-places .poznan,.warsaw,.wroclaw,.karpacz,.dolina,.kozy p{
+	color: #606f81;
+	font-family: Montserrat;
+	text-align: center;
+}
+
+.offer-places .poznan p{
+	padding-top: 15px;
+}
+
+.offer-places .warsaw p{
+	padding-top: 15px;
+}
+
+.offer-places .wroclaw p{
+	padding-top: 15px;
+}
+.offer-places .karpacz p{
+	padding-top: 15px;
+}
+.offer-places .dolina p{
+	padding-top: 15px;
+}
+.offer-places .kozy p{
+	padding-top: 15px;
+}
+
+.offer-places .poznan{
+	left: 390px;
+	top: 5rem;
+}
+
+.offer-places .poznan img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 0;
+}
+
+.offer-places .warsaw{
+	left: 779px;
+	top: -303px;
+}
+
+.offer-places .warsaw img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 0;
+}
+
+.offer-places .wroclaw{
+	left: 1173px;
+	top: -686px;
+}
+
+.offer-places .wroclaw img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 0;
+}
+
+.offer-places .karpacz{
+	left: 390px;
+	top: -628px;
+}
+
+.offer-places .karpacz img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 0;
+}
+
+.offer-places .dolina{
+	left: 779px;
+	top: -1010px;
+}
+
+.offer-places .dolina img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 0;
+}
+
+.offer-places .kozy{
+	left: 1173px;
+	top: -1393px;
+}
+
+.offer-places .kozy img{
+	height: 200px;
+	width: 330px;
+	margin: 10px 0 0 10px;
+}
+
+.offer-places .poznan-btn, .warsaw-btn, .wroclaw-btn, .karpacz-btn, .dolina-btn, .kozy-btn{
+	background-color: #fff;
+	outline: none;
+	border: none;
+	height: 2rem;
+	width: 8.5rem;
+	border-radius: 15rem;
+	transition: all 1s ease-out;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.offer-places .kozy-btn{
+	margin-left: 110px;
+}
+
+.offer-places .offers-btn{
+	color: #bdc8d9;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.explore-city p{
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: -80rem;
+	color: #606f81;
+	font-size: 30px;
+}
+
+.explore-city .san, .dom, .ierz{
+	font-size: 354.71px;
+	color: #fff;
+	text-shadow: rgba(141,168,149,0.15);
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: right;
+	position: relative;
+	top: -83rem;
+	line-height: 260px;
+}
+
+.explore-city .dom img{
+	position: absolute;
+	z-index: 9999;
+	top: -150px;
+	left: 60rem;
+}
+
+.explore-city .dom .border-box{
+	border: 15px solid #ffc74a;
+	z-index: 9998;
+	position: absolute;
+	width: 550px;
+	height: 550px;
+	left: 62rem;
+	top: -7rem;
+}
+
+.explore-city .info-text .txt2{
+	color: #606f81;
+	font-size: 14px;
+	display: inline-block;
+	text-align: left;
+	width: 530px;
+	position: relative;
+	left: 0;
+	top: -118rem;
+	line-height: 30px;
+	font-family: Montserrat;
+	font-weight: normal;
+	margin-left: 24rem;
+}
+
+.explore-city .info-text .txt1{
+	color: #ffc74a;
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	margin-left: 24rem;
+	top: -120rem;
+}
+
+.explore-city .check-offers{
+	color: #b98000;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.explore-city .offers-btn{
+	background-color: #ffc74a;
+	outline: none;
+	border: none;
+	height: 3rem;
+	width: 12rem;
+	border-radius: 15rem;
+	transition: all 1s ease-out;
+	position: relative;
+	top: -113rem;
+	left: -33.5rem;
+}
+
+.sign-up{
+	background-image: url(../images/Polind/bg.jpg);
+	background-position: 0% 0px;
+	width: 100%;
+  	height: 70vh;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	position: absolute;
+  	box-sizing: border-box;
+  	top: 235rem;
+}
+
+.sign-up p{
+	position: relative;
+	top: 12rem;
+	margin-left: 5rem;
+	font-size: 92px;
+	color: #fff;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sign-up .newsletter{
+	font-size: 18.5px;
+	font-weight: normal;
+	margin-top: 120px;
+}
+
+.sign-up .newsletter a:hover{
+	text-decoration: underline;
+	color: #b98000;
+	transition: 0.5 all;
+}
+
+.sign-up .signup-btn{
+	background-color: #ffc74a;
+	outline: none;
+	border: none;
+	height: 3rem;
+	width: 8.5rem;
+	border-radius: 15rem;
+	transition: all 1s ease-out;
+	position: absolute;
+	top: 20rem;
+	margin-left: 57rem;
+	margin-top: 20px;
+}
+
+.sign-up .signup-text{
+	color: #b98000;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.footer{
+	height: 1px;
+	position: relative;
+}
+
+.footer p{
+	font-size: 304.68px;
+	color: #fff;
+	text-shadow: rgba(141,168,149,0.25);
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: -40rem;
+	letter-spacing: 20px;
+}
+
+.footer img{
+	position: relative;
+	top: -55rem;
+	left: 60rem;
+	width: 60px;
+	height: 70px;
+}
+
+.footer .copyright{
+	font-size: 24px;
+	color: #606f81;
+	letter-spacing: 0;
+	top: -54rem;
+	margin-left: 80px;
+}
+
+/* Responsive */
+/* Smartphone cùi bắp */
+@media (max-width: 320px){
+	
+	.responsive{
+		display: block;
+		margin-top: 0rem;
+		width: 320px;
+	}
+
+	.responsive .img-center{
+		width: 320px;
+		margin-left: -1.5rem;
+	}
+
+	.responsive .img-center img:last-child{
+		margin-left: -0rem;
+	}
+
+	.responsive .img-center img.img2{
+		margin-left: -0rem;
+	}
+
+	.responsive img{
+		width: 100%;
+		margin-top: 1rem;
+		margin-left: 0;
+	}
+	
+	body{
+		width: 320px;
+	}
+
+	header a img{
+		max-width: 100%;
+  		height: auto;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+	}
+
+	header a p{
+		font-size: 1.5rem;
+		top: 1.2rem;
+		left: 5rem;
+	}
+
+	.menu-toggle{
+		display: block;
+		width: 1.5rem;
+		height: 1.5rem;
+		float: right;
+		background-color: #333;
+		color: #fff;
+		font-size: 1.5rem;
+		text-align: center;
+		cursor: pointer;
+		margin-top: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	.menu-toggle:before{
+		content: '\f0c9';
+		font-family: fontAwesome;
+	}
+	
+	.menu-toggle.active:before{
+		content: '\f00d';
+		font-family: fontAwesome;
+	}
+
+	nav{
+		display: none;
+	}
+
+	nav.active > .text{
+		display: none;
+	}
+
+	nav.active{
+		display: block;
+		margin-top: 3rem;
+		width: 100%;
+		height: 49.3vh;
+		
+	}
+
+	nav.active ul{
+		background-color: #333;
+		width: 100%;
+		display: block;
+		text-align: left;
+	}
+	
+	nav.active ul li{
+		border-bottom: 1px solid grey;
+		width: 20rem;
+	}
+
+	nav.active ul li a{
+		font-size: 0.625rem;
+		margin-left: 3.5rem;
+		text-align: center;
+		padding-bottom: 1.25rem;
+	}
+
+	nav.active ul li a:hover{
+		color: #ED6950;
+		transition: 0.5s;
+		outline: none;
+	}
+	
+	form{
+		left: 15rem;
+		top: 1.3rem;
+	}
+
+	.text{
+		display: block;
+	}
+
+	.text .text1{
+		font-size: 2.5rem;
+		display: inline-block;
+		margin-left: 2rem;
+		text-align: center;
+	}
+
+	.text .text2{
+		font-size: 0.525rem;
+		margin-top: 2rem;
+	}
+
+	.text .text3{
+		font-size: 0.625rem;
+	}
+
+	.text .text3-btn{
+		margin-top: 3rem;
+		margin-left: 6em;
+		height: 2rem;
+		width: 10rem;
+	}
+
+	.text .text4{
+		margin-top: 11rem;
+	}
+}
+/* Hết Smartphone cùi bắp */
+
+/* Ip6/7/8/X Plus etc */
+@media only screen and (min-device-width : 321px) and (max-device-width : 599px) {
+
+	.responsive{
+		display: inline-block;
+		width: 1024px;
+		height: auto;
+		float: left;
+		position: relative;
+		top: -8rem;
+	}
+
+	.responsive .img-float-left img{
+		width: 198px;
+		height: auto;
+	}
+
+	.img-float-right img{
+		width: 198px;
+		height: auto;
+		display: inline-block;
+	}
+
+	.img-center img{
+		width: 198px;
+		height: auto;
+	}
+
+	.responsive .img-center img:last-child{
+	margin-left: 5px;
+	}
+
+	body{
+		width: 64rem;
+	}
+
+	header a img{
+		max-width: 100%;
+		height: auto;
+		margin-left: 1rem;
+		margin-top: 1.25rem;
+	}
+
+	header a p{
+		font-size: 2.5rem;
+		top: 1.5rem;
+		left: 6rem;
+	}
+
+	.menu-toggle{
+		display: block;
+		width: 3rem;
+		height: 3rem;
+		float: right;
+		background-color: #333;
+		margin-top: 0;
+		color: #fff;
+		font-size: 3rem;
+		text-align: center;
+		cursor: pointer;
+		margin-top: 1.8rem;
+		margin-right: 0.75em;
+	}
+
+	.menu-toggle:before{
+		content: '\f0c9';
+		font-family: fontAwesome;
+	}
+	
+	.menu-toggle.active:before{
+		content: '\f00d';
+		font-family: fontAwesome;
+	}
+
+	nav{
+		display: none;
+	}
+
+	nav.active{
+		display: block;
+		margin-top: 2rem;
+		width: 100%;
+		height: 129.5vh;
+		background-color: rgba(222, 221, 217, 0.2);
+	}
+
+	nav.active ul{
+		display: inline-block;
+		text-align: center;
+	}
+	
+	nav.active ul li{
+		border-bottom: 0.0625rem solid grey;
+		width: 64rem;
+		display: inline-block;
+		text-align: center;
+	}
+
+	nav.active ul li a{
+		font-size: 2.8rem;
+		margin-left: 3.5rem;
+		text-align: center;
+		padding-top: 0.25rem;
+	}
+
+	nav.active ul li a:hover{
+		color: #ED6950;
+		transition: 0.5s;
+		outline: none;
+	}
+	
+	form{
+		left: 22rem;
+		top: 1.5rem;
+	}
+
+	input{
+		height: 52.5px;
+	}
+
+	.fa{
+		width: 52.5px;
+		height: 52.5px;
+		right: -5px;
+	}
+
+	i.fa-search{
+	font-size: 35px;
+	}
+
+	form:hover{
+    width: 250px;
+	}
+
+	.text .text1{
+		font-size: 7rem;
+		display: inline-block;
+		margin-left: 9.5rem;
+	}
+
+	.text .text2{
+		font-size: 1.35rem;
+		margin-top: 3rem;
+	}
+
+	.text .text3{
+		font-size: 1.35em;
+	}
+
+	.text .text3-btn{
+		margin-top: 4rem;
+		margin-left: 26em;
+		margin-bottom: 14rem;
+		height: 4rem;
+		width: 19rem;
+	}
+}
+/* Hết Ip6/7/8/X Plus etc */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	.responsive{
+		display: inline-block;
+		width: 1024px;
+		height: auto;
+		float: left;
+		position: relative;
+		top: -8rem;
+	}
+
+	.responsive .img-float-left img{
+		width: 198px;
+		height: auto;
+	}
+
+	.img-float-right img{
+		width: 198px;
+		height: auto;
+		display: inline-block;
+	}
+
+	.img-center img{
+		width: 198px;
+		height: auto;
+	}
+
+	.responsive .img-center img:last-child{
+	margin-left: 5px;
+	}
+
+	body{
+		width: 64rem;
+	}
+
+	header a img{
+		max-width: 100%;
+		height: auto;
+		margin-left: 1rem;
+		margin-top: 1.25rem;
+	}
+
+	header a p{
+		font-size: 2.5rem;
+		top: 1.5rem;
+		left: 5.5rem;
+	}
+
+	.menu-toggle{
+		display: block;
+		width: 3rem;
+		height: 3rem;
+		float: right;
+		background-color: #333;
+		margin-top: 0;
+		color: #fff;
+		font-size: 3rem;
+		text-align: center;
+		cursor: pointer;
+		margin-top: 1.8rem;
+		margin-right: 0.75em;
+	}
+
+	.menu-toggle:before{
+		content: '\f0c9';
+		font-family: fontAwesome;
+	}
+	
+	.menu-toggle.active:before{
+		content: '\f00d';
+		font-family: fontAwesome;
+	}
+
+	nav{
+		display: none;
+	}
+
+	nav.active{
+		display: block;
+		margin-top: 2rem;
+		width: 100%;
+		height: 129.5vh;
+		background-color: rgba(222, 221, 217, 0.2);
+	}
+
+	nav.active ul{
+		display: inline-block;
+		text-align: center;
+	}
+	
+	nav.active ul li{
+		border-bottom: 0.0625rem solid grey;
+		width: 64rem;
+		display: inline-block;
+		text-align: center;
+	}
+
+	nav.active ul li a{
+		font-size: 2.8rem;
+		margin-left: 3.5rem;
+		text-align: center;
+		padding-top: 0.25rem;
+	}
+
+	nav.active ul li a:hover{
+		color: #ED6950;
+		transition: 0.5s;
+		outline: none;
+	}
+	
+	form{
+		left: 22rem;
+		top: 1.5rem;
+	}
+
+	input{
+		height: 52.5px;
+	}
+
+	.fa{
+		width: 52.5px;
+		height: 52.5px;
+		right: -5px;
+	}
+
+	i.fa-search{
+	font-size: 35px;
+	}
+
+	form:hover{
+    width: 260px;
+	}
+
+	.text .text1{
+		font-size: 7rem;
+		display: inline-block;
+		margin-left: 9.5rem;
+	}
+
+	.text .text2{
+		font-size: 1.35rem;
+		margin-top: 3rem;
+	}
+
+	.text .text3{
+		font-size: 1.35em;
+	}
+
+	.text .text3-btn{
+		margin-top: 4rem;
+		margin-left: 26em;
+		margin-bottom: 1.5rem;
+		height: 4rem;
+		width: 19rem;
+	}
+}
+
+/* End responsive */
